@@ -2,7 +2,7 @@ version: '3'
 services:
   laravel-app:
     build:
-      context: .
+      context: ./laravel-api
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
